@@ -12,6 +12,6 @@ import java.util.Date;
 public class Invoice {
     private String invoiceID;
     private Date invoiceDate;
-    private UserInvoice userInvoice;
+    private String userInvoiceId;
     private boolean isPaid;
 }
